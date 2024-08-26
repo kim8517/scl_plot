@@ -16,7 +16,7 @@ setup(
     long_description_content_type='text/markdown',
     author='TAEWAN KIM',
     author_email='ktwa8517@gmail.com',
-    url='https://github.com/yourusername/my_package',  # Update with your package URL
+    url='https://github.com/kim8517/scl_plot.git',  # Update with your package URL
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
