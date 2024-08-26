@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-class scl_plt():
+class default():
     def __init__(self):
         self.font()
         self.ax_line()

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: scl-plot
+Version: 0.1
+Summary: Python matplotlib settings for SNUCLUES
+Home-page: https://github.com/kim8517/scl_plot.git
+Author: TAEWAN KIM
+Author-email: ktwa8517@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.
+Description-Content-Type: text/markdown
+
+# matplot setting for SNUCLUES
+To install run the following command:
+'''
+python setup.py
+'''
+This wll make your plot more visible and beautiful!
