@@ -19,7 +19,7 @@ class default():
         
     def ticks(self, xtickdirection='in', ytickdirection='in', xtickminorvisible=True, ytickminorvisible=True, xtickmajorsize=7,
               ytickmajorsize=7, xtickminorsize=3.5, ytickminorsize=3.5, xtickmajorwidth=1.5, ytickmajorwidth=1.5, xtickminorwidth=1.5,
-              ytickminorwidth=1.5, ytickright=True, xticktop=True):
+              ytickminorwidth=1.5, ytickright=True, xticktop=True, xtickmajorpad=8):
         plt.rcParams['xtick.direction'] = xtickdirection
         plt.rcParams['ytick.direction'] = ytickdirection
         plt.rcParams['xtick.minor.visible'] = xtickminorvisible
@@ -34,7 +34,7 @@ class default():
         plt.rcParams['ytick.minor.width']= ytickminorwidth
         plt.rcParams['ytick.right']= ytickright
         plt.rcParams['xtick.top']= xticktop
-        plt.rcParams['axes.labelpad'] = 15
+        plt.rcParams['xtick.major.pad'] = xtickmajorpad
 
 colors = ['#377EB8', '#FF7F00', '#4DAF4A',
                   '#F781BF', '#A65628', '#984EA3',
