@@ -34,6 +34,7 @@ class default():
         plt.rcParams['ytick.minor.width']= ytickminorwidth
         plt.rcParams['ytick.right']= ytickright
         plt.rcParams['xtick.top']= xticktop
+        plt.rcParams['axes.labelpad'] = 15
 
 colors = ['#377EB8', '#FF7F00', '#4DAF4A',
                   '#F781BF', '#A65628', '#984EA3',
